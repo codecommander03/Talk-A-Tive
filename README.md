@@ -1,3 +1,3 @@
-#### Talk-A-Tive
+# Talk-A-Tive
 
-## A MERN based chat app with socket-io
+### A MERN based chat app with socket-io

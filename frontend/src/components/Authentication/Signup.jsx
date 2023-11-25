@@ -28,7 +28,7 @@ const Signup = () => {
             e.preventDefault();
             setTimeout(() => {
                 emailRef.current.focus();
-            },2000)
+            },500)
         }
     }
 

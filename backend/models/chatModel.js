@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const chatSchema = mongoose.Schemaa(
+const chatSchema = mongoose.Schema(
     {
-        chatName: {tpe:String, trim: true},
-        isGroupChat : {type:boolean, default:false},
+        chatName: {type: String, trim: true},
+        isGroupChat : {type: Boolean, default:false},
         users : [{
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User'

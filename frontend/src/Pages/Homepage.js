@@ -8,6 +8,7 @@ const Homepage = () => {
     <Box
       d="flex"
       justifyContent="center"
+      textAlign={"center"}
       p={3}
       bg={"white"}
       w="100%"
